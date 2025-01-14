@@ -31,7 +31,7 @@ SERVER_NAME = 'your_server_name-ondemand.sql.azuresynapse.net'  # Update this wi
 DATABASE_NAME = 'your_database_name'                            # Update this to your database name
 DATA_LAKE_URL = 'https://your_storage_account.blob.core.windows.net/your_container/your_file'  # Update this to your data lake URL
 
-# Set this to 'PARQUET', 'DELTA', or 'CSV'
+# Set this to 'PARQUET' or 'DELTA'
 TABLE_FORMAT = 'PARQUET'
 
 # Output file paths

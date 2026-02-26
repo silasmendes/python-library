@@ -29,7 +29,7 @@ VARIABLES TO SET BEFORE RUNNING:
 # Configuration variables
 SERVER_NAME = 'your_server_name-ondemand.sql.azuresynapse.net'  # Update this with your Serverless SQL endpoint
 DATABASE_NAME = 'your_database_name'                            # Update this to your database name
-DATA_LAKE_URL = 'https://your_storage_account.blob.core.windows.net/your_container/your_file'  # Update this to your data lake URL
+DATA_LAKE_URL = 'https://your_storage_account.dfs.core.windows.net/your_container/your_folder'  # Update this to your data lake URL
 
 # Set this to 'PARQUET' or 'DELTA'
 TABLE_FORMAT = 'PARQUET'
@@ -141,3 +141,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

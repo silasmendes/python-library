@@ -12,6 +12,8 @@ This Python script helps create and drop statistics for Parquet or Delta tables 
 DETAILS:
 - To view table schema, this code connects to Serverless SQL pool and runs the `sp_describe_first_result_set` stored procedure.
 - It does NOT create statistics or make changes to your Serverless SQL pool.
+- Requires the `pyodbc` package. Install it before running the script:
+      `pip install pyodbc`
 
 OUTPUT:
 Generates two files:
@@ -141,4 +143,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
